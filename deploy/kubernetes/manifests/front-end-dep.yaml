@@ -4,11 +4,13 @@ kind: Deployment
 metadata:
   name: front-end
   namespace: sock-shop
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   selector:
     matchLabels:
-      name: front-end  
+      name: front-end
   template:
     metadata:
       labels:
@@ -34,7 +36,7 @@ spec:
           runAsUser: 10001
           capabilities:
             drop:
-              - all
+            - all
           readOnlyRootFilesystem: true
         livenessProbe:
           httpGet:
