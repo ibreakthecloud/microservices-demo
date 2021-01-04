@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: harshvkarn/front-end:sha-2ddecfc
+        image: harshvkarn/front-end:sha-c187f3d
         resources:
           limits:
             cpu: 300m
