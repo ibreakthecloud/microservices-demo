@@ -1,0 +1,1 @@
+{"jobID":"b3886721-438c-f2b8-7a9c-754364fbf6ad","spec":{"type":"policy","cause":{"Message":"","User":"ibreakthecloud \u003charshvkarn54@gmail.com\u003e"},"spec":{"sock-shop:deployment/front-end":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
