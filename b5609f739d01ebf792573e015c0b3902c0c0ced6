@@ -1,0 +1,1 @@
+{"jobID":"db03b4fa-9c82-4e49-965f-a6ea6558ee1a","spec":{"type":"policy","cause":{"Message":"","User":"Harshvardhan Karn \u003charshvardhan@deepfence.io\u003e"},"spec":{"sock-shop:deployment/front-end":{"add":{"locked":"true","locked_msg":"\"\"","locked_user":"Harshvardhan Karn \u003charshvardhan@deepfence.io\u003e"},"remove":null}}},"result":null}
