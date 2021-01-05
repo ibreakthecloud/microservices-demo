@@ -6,9 +6,6 @@ metadata:
   namespace: sock-shop
   annotations:
     fluxcd.io/automated: 'true'
-    fluxcd.io/locked: 'true'
-    fluxcd.io/locked_msg: '""'
-    fluxcd.io/locked_user: Harshvardhan Karn <harshvardhan@deepfence.io>
 spec:
   replicas: 1
   selector:
