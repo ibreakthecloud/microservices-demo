@@ -6,6 +6,8 @@ metadata:
   namespace: sock-shop
   annotations:
     fluxcd.io/automated: 'true'
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_user: ibreakthecloud <harshvkarn54@gmail.com>
 spec:
   replicas: 1
   selector:
