@@ -26,7 +26,7 @@ spec:
         mode: DISABLE
     # Istio gateways (optional)
     gateways:
-    - public-gateway.istio-system.svc.cluster.local
+    - public-gateway-front-end.istio-system.svc.cluster.local
     # Istio virtual service host names (optional)
     hosts:
     - "*"
